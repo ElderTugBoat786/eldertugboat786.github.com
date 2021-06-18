@@ -13,19 +13,84 @@ enableEmoji: true
 minify:
     disableXML: true
 
+defaultContentLanguage: it
+
 languages:
-    en:
-        languageName: "English"
+    it:
+        languageName: "IT"
         weight: 1
         menu:
             main:
                 - name: Tags
                   url: tags/
+                  weight: 11
+                - name: Categorie
+                  url: categories/
                   weight: 10
+                - name: Me
+                  url: about
+                  weight: 9
+        profileMode:
+            enabled: false
+            title: Andrea Padricelli
+            buttons:
+                - name: Archives
+                  url: archives
+                - name: Tags
+                  url: tags
+
+        homeInfoParams:
+            Title: "Ciao"
+            Content: >
+                Sono solo un altro sviluppatore con un sito personale! Mi piace
+                esplorare e scoprire nuove tecnologie. In questo sito potrai trovare
+                alcuni articoli su argomenti che potrei trovare interessante o
+                alcune storie personali che potrei voler raccontare.
+                Puoi leggere la mia storia [qui](./about)
+        socialIcons:
+            - name: github
+              url: "https://github.com/ElderTugBoat786"
+            - name: linkedin
+              url: "https://www.linkedin.com/in/ElderTugBoat786"
+            - name: RsS
+              url: "index.xml"
+    en:
+        languageName: "EN"
+        weight: 1
+        menu:
+            main:
+                - name: Tags
+                  url: tags/
+                  weight: 11
                 - name: Categories
                   url: categories/
                   weight: 10
+                - name: About Me
+                  url: about
+                  weight: 9
+        profileMode:
+            enabled: false
+            title: Andrea Padricelli
+            buttons:
+                - name: Archives
+                  url: archives
+                - name: Tags
+                  url: tags
 
+        homeInfoParams:
+            Title: "Hi"
+            Content: >
+                I am just another developer with a personal site! I like explore and
+                discover new technologies. In this site you can find some articles
+                on topics that I find interesting or personal stories that I want
+                to tell. You can read my story [here](./about)
+        socialIcons:
+            - name: github
+              url: "https://github.com/ElderTugBoat786"
+            - name: linkedin
+              url: "https://www.linkedin.com/in/ElderTugBoat786"
+            - name: RsS
+              url: "index.xml"
 outputs:
     home:
         - HTML
@@ -38,13 +103,11 @@ params:
     author: Andrea Padricelli
 
     defaultTheme: auto
-    ShowShareButtons: true
     ShowReadingTime: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    ShowToc: true
     images: ["papermod-cover.png"]
 
     profileMode:
@@ -59,7 +122,10 @@ params:
     homeInfoParams:
         Title: "Hi"
         Content: >
-            Welcome to my site!
+            I am just another developer with a personal site! I like explore and
+            discover new technologies. In this site you can find some articles
+            on topics that I find interesting or personal stories that I want
+            to tell. You can read my story [here](https://andreapadricelli.dev/about)
     socialIcons:
         - name: github
           url: "https://github.com/ElderTugBoat786"
