@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://andreapadricelli.dev/</loc>
-  </url><url>
-    <loc>https://andreapadricelli.dev/categories/</loc>
-  </url><url>
-    <loc>https://andreapadricelli.dev/series/</loc>
-  </url><url>
-    <loc>https://andreapadricelli.dev/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://andreapadricelli.dev/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://andreapadricelli.dev/it/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

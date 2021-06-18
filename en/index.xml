@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrea Padricelli</title>
-    <link>https://andreapadricelli.dev/</link>
+    <link>https://andreapadricelli.dev/en/</link>
     <description>Recent content on Andrea Padricelli</description>
     <image>
       <url>https://andreapadricelli.dev/papermod-cover.png</url>
       <link>https://andreapadricelli.dev/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://andreapadricelli.dev/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://andreapadricelli.dev/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Me!</title>
-      <link>https://andreapadricelli.dev/about/</link>
-      <pubDate>Fri, 18 Jun 2021 21:51:53 +0200</pubDate>
+      <title>About Me</title>
+      <link>https://andreapadricelli.dev/en/about/</link>
+      <pubDate>Fri, 18 Jun 2021 21:51:57 +0200</pubDate>
       
-      <guid>https://andreapadricelli.dev/about/</guid>
-      <description>Ciao </description>
+      <guid>https://andreapadricelli.dev/en/about/</guid>
+      <description>Hi </description>
     </item>
     
   </channel>
